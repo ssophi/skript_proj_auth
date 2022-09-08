@@ -30,7 +30,8 @@ app_auth.use(bodyParser.json());
 var corsOptions = {
     credentials: true,
     origin: ["https://skript-proj-be.herokuapp.com", 
-        "https://skript-proj-auth.herokuapp.com/"],
+        "https://skript-proj-auth.herokuapp.com/",
+        "http://localhost:8080/"],
     optionsSuccessStatus: 200
 }
 app_auth.use(cors(corsOptions))
