@@ -93,10 +93,10 @@ io_auth.on('connection', socket => {
 
 const staticMdl = express.static(path.join(__dirname, 'dist'));
 
-app.use(staticMdl);
+app_auth.use(staticMdl);
 
-app.use(history({ index: '/index.html' }));
+app_auth.use(history({ index: '/index.html' }));
 
-app.use(staticMdl);
+app_auth.use(staticMdl);
 
-server_auth.listen(process.env.PORT || PORT_auth, () => console.log(`Server running on port ${PORT}`));
+server_auth.listen(process.env.PORT || PORT_auth, () => console.log(`Server running on port ${PORT_auth}`));
