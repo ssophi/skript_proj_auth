@@ -18,10 +18,10 @@
         "logging": false
     },
     "production": {
-      "username": "tzhjmbpmdsgblg",
-      "password": "8bc6b4361a7aa074e07ad8206ff257754bfd8f7a93738875eb4bb7bb52afac50",
-      "database": "d6jjtnb2a891qg",
-      "host": "ec2-54-77-40-202.eu-west-1.compute.amazonaws.com",
+      "username": "koxqwxedhahzwu",
+      "password": "da27c82d670d9807da9a74161d1b91e54137d60c544d43fb4d244f3ef465908b",
+      "database": "dfh8ovm34tvp68",
+      "host": "ec2-63-32-248-14.eu-west-1.compute.amazonaws.com",
       "port": 5432,
       "dialect": "postgres",
       "logging": false,
