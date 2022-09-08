@@ -91,4 +91,10 @@ io_auth.on('connection', socket => {
     socket.on('error', err => socket.emit('error', err.message) );
 });
 
-server_auth.listen(PORT_auth, () =>console.log(`Server_auth running on port ${PORT_auth}`));
+app.use(staticMdl);
+
+app.use(history({ index: '/index.html' }));
+
+app.use(staticMdl);
+
+server_auth.listen(process.env.PORT || PORT_auth, () => console.log(`Server running on port ${PORT}`));
