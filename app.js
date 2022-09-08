@@ -10,7 +10,7 @@ const path= require('path');
 // const { response } = require('express');
 const http = require('http');
 const { Server } = require("socket.io");
-// const history = require('connect-history-api-fallback');
+const history = require('connect-history-api-fallback');
 
 const ruta_login = require('./routes/login_routes.js');
 const ruta_register = require('./routes/register_routes.js');
